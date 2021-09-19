@@ -1,4 +1,4 @@
-name := "udemy-akka-essentials"
+name := "akka_scala_training"
 
 version := "0.1"
 
@@ -9,7 +9,7 @@ val akkaVersion = "2.6.16"
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
-  "org.scalatest" %% "scalatest" % "3.2.9" % Test,
-  "org.scalactic" %% "scalactic" % "3.2.9" % Test
+  "org.scalatest" %% "scalatest" % "3.2.9",
+  "org.scalactic" %% "scalactic" % "3.2.9"
 
 )
